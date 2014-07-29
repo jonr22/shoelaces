@@ -1,0 +1,18 @@
+@import "variables";
+@import "bootstrap";
+
+html {
+  background: $gray image-url('noise.png') top left;
+}
+
+footer {
+  color: $light-gray;
+  background: $gray image-url('noise.png') top left;
+  padding-top: 20px;
+  a {
+    color: $light-gray;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
