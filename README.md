@@ -146,6 +146,14 @@ This has the same effect as running:
 
     hub create organization/project
 
+Port
+----
+
+You can manually set the port for the application to use instead of using the
+random selection:
+
+    shoelaces app --port 4040
+
 Dependencies
 ------------
 
